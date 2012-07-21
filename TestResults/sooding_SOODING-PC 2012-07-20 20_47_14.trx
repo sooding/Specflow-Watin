@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5282da4a-8650-4ae5-81bf-41f951e7f30c" name="sooding@SOODING-PC 2012-07-20 20:47:14" runUser="sooding-PC\sooding" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="84e81f08-0a06-4820-b19f-642205184616">
+    <Deployment runDeploymentRoot="sooding_SOODING-PC 2012-07-20 20_47_14">
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\WatiN.Core.dll" />
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\Interop.SHDocVw.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-20T20:47:14.6844981-07:00" queuing="2012-07-20T20:47:16.7306595-07:00" start="2012-07-20T20:47:17.1792547-07:00" finish="2012-07-20T20:50:03.2318503-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SOODING-PC" outcome="Error" timestamp="2012-07-20T20:50:03.2273898-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveAllMyDeals" storage="c:\users\sooding\desktop\mygroupondeals\bin\debug\specflowdemo.acceptancetests.dll" id="20c13fb0-ed5a-8715-40b0-e17eeaafee74">
+      <Description>Save all my deals</Description>
+      <Execution id="aad6584f-c5e7-42bf-9d53-fe55bdbd0f7b" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>All deals</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/sooding/Desktop/MyGrouponDeals/bin/Debug/SpecFlowDemo.AcceptanceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlowDemo.AcceptanceTests.Features.AllDealsFeature, SpecFlowDemo.AcceptanceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveAllMyDeals" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20c13fb0-ed5a-8715-40b0-e17eeaafee74" executionId="aad6584f-c5e7-42bf-9d53-fe55bdbd0f7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="aad6584f-c5e7-42bf-9d53-fe55bdbd0f7b" testId="20c13fb0-ed5a-8715-40b0-e17eeaafee74" testName="SaveAllMyDeals" computerName="SOODING-PC" duration="00:02:45.7026140" startTime="2012-07-20T20:47:17.5292363-07:00" endTime="2012-07-20T20:50:03.2318503-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aad6584f-c5e7-42bf-9d53-fe55bdbd0f7b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

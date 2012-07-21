@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0341095-c43d-4e0a-ae2c-f7ddece4990f" name="sooding@SOODING-PC 2012-07-20 21:17:44" runUser="sooding-PC\sooding" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="40985cee-2f51-47aa-8470-2ab54780a92e">
+    <Deployment runDeploymentRoot="sooding_SOODING-PC 2012-07-20 21_17_44">
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\WatiN.Core.dll" />
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\sooding\Desktop\MyGrouponDeals\lib\Interop.SHDocVw.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-20T21:17:44.7839530-07:00" queuing="2012-07-20T21:17:47.6143883-07:00" start="2012-07-20T21:17:47.8127711-07:00" finish="2012-07-20T21:18:36.8252996-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SaveAllMyDeals" storage="c:\users\sooding\desktop\mygroupondeals\bin\debug\specflowdemo.acceptancetests.dll" id="20c13fb0-ed5a-8715-40b0-e17eeaafee74">
+      <Description>Save all my deals</Description>
+      <Execution id="7d10a683-82ec-46f6-ba71-f5f1d9f38138" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>All deals</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/sooding/Desktop/MyGrouponDeals/bin/Debug/SpecFlowDemo.AcceptanceTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpecFlowDemo.AcceptanceTests.Features.AllDealsFeature, SpecFlowDemo.AcceptanceTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SaveAllMyDeals" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20c13fb0-ed5a-8715-40b0-e17eeaafee74" executionId="7d10a683-82ec-46f6-ba71-f5f1d9f38138" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d10a683-82ec-46f6-ba71-f5f1d9f38138" testId="20c13fb0-ed5a-8715-40b0-e17eeaafee74" testName="SaveAllMyDeals" computerName="SOODING-PC" duration="00:00:46.7366688" startTime="2012-07-20T21:17:47.9841808-07:00" endTime="2012-07-20T21:18:35.8585028-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d10a683-82ec-46f6-ba71-f5f1d9f38138">
+      <Output>
+        <StdOut>Given I am on the home page
+-&gt; done: GetDeals.given_i_am_on_the_home_page() (22.4s)
+When I click the Sign In link
+-&gt; done: GetDeals.when_i_click_the_link("Sign In") (5.8s)
+Then I should be on the login page
+-&gt; done: GetDeals.Ishouldbeontheloginpage() (0.0s)
+When I enter my email and password
+-&gt; done: GetDeals.WhenIEnterMyUsernameAndPassword() (0.3s)
+When I press the commit button
+-&gt; done: GetDeals.when_i_press_the_button("commit") (6.0s)
+Then I should be logged in
+-&gt; done: GetDeals.Ishouldbeloggedin() (0.4s)
+When I click the All Deals link
+-&gt; done: GetDeals.when_i_click_the_link("All Deals") (4.9s)
+Then I should be able to store all my deals in AllMyDeals file
+-&gt; done: GetDeals.store_all_deals("AllMyDeals") (5.9s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

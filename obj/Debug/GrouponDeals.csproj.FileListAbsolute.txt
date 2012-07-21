@@ -1,0 +1,11 @@
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\lib\Interop.SHDocVw.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\lib\WatiN.Core.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\SpecFlowDemo.AcceptanceTests.dll.config
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\SpecFlowDemo.AcceptanceTests.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\SpecFlowDemo.AcceptanceTests.pdb
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\Interop.SHDocVw.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\bin\Debug\WatiN.Core.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sooding\Desktop\MyGrouponDeals\obj\Debug\SpecFlowDemo.AcceptanceTests.dll
+C:\Users\sooding\Desktop\MyGrouponDeals\obj\Debug\SpecFlowDemo.AcceptanceTests.pdb
